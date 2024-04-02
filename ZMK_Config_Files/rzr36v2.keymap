@@ -20,39 +20,6 @@
 //&mwh
 
 
-/{
-	macros {
-		oums: oums {
-			label = "oums";
-			compatible = "zmk,behavior-macro";
-			#binding-cells = <0>;
-			wait-ms = <30>;
-			tap-ms = <40>;
-			bindings = <&kp O &kp U &kp M &kp S &kp N1 &kp N3 &kp N1 &kp N3>
-			, <&kp AT &kp O &kp X &kp DOT &kp A &kp C &kp DOT &kp U &kp K> 
-				;
-			};	
-
-		npass: npass {
-			label = "npass";
-			compatible = "zmk,behavior-macro";
-			#binding-cells = <0>;
-			wait-ms = <20>;
-			tap-ms = <30>;
-			bindings = <&kp LS(I) &kp LS(D) &kp O &kp N &kp SQT &kp T &kp LS(R) &kp E &kp M>
-			, <&kp E &kp M &kp B &kp E &kp R &kp LS(W) &kp H &kp N1 &kp C &kp H &kp LS(P)>
-			, <&kp AT &kp DLLR &kp DLLR> ;
-
-			};
-
-
-	};
-	/*
-	behaviors {
-	
-	};
-	*/
-};
 
 
 
@@ -111,7 +78,7 @@
 //             |GAME*|     |  |        |     |     |     |
                         bindings = <
    &kp GRAVE &kp F1   &kp F2  &kp F3  &kp F4           &none             &bt BT_SEL 0      &none         &bt      &kp LG(LS(T))
-   &none     &kp F5   &kp F6  &kp F7  &kp F8           &oums             &npass            &none         &kp NUHS &kp LG(LS(S))
+   &none     &kp F5   &kp F6  &kp F7  &kp F8           &none             &none            &none         &kp NUHS &kp LG(LS(S))
    &none     &kp F9   &kp F10 &kp F11 &kp F12          &kp LG(LC(LA(NUMBER_1))) &kp LG(LC(LA(NUMBER_2))) &none    &trans        &kp LG(LS(D))
    	  	&bootloader &none   &trans         &trans            &none             &bt BT_CLR
                         >;
