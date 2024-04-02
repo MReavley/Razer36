@@ -1,0 +1,20 @@
+file_format: "1"
+id: rzr36v2
+<<<<<<< HEAD
+name: rzr36v2
+=======
+name: Razer 36 V2.0
+>>>>>>> 454f4ef32c4b85784be0bb66bade7fb36b06e920
+type: shield
+url: https://github.com/MReavley
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+siblings:
+  - rzr36v2_left
+<<<<<<< HEAD
+  - rzr36v2_right
+=======
+  - rzr36v2_right
+>>>>>>> 454f4ef32c4b85784be0bb66bade7fb36b06e920

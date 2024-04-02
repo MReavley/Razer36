@@ -1,0 +1,30 @@
+if SHIELD_rzr36v2_left
+
+config ZMK_KEYBOARD_NAME
+		default "rzr36v2"
+	
+config ZMK_SPLIT_ROLE_CENTRAL
+		default y
+		
+config SPI
+		default y
+
+endif	
+
+if SHIELD_rzr36v2_left || SHIELD_rzr36v2_right	
+
+config I2C 
+		default n
+
+config ZMK_SPLIT
+		default y
+
+config SPI
+		default y
+
+
+config ZMK_KSCAN_MATRIX_POLLING
+		default y
+
+
+endif #overall		

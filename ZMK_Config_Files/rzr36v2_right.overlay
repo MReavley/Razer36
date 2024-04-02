@@ -1,0 +1,20 @@
+#include "rzr36v2.dtsi"
+
+&transform {
+		col-offset = <6>;
+};		
+
+//May need to add the col-gpios and flip it as in the crkbd example		
+
+&kscan {
+	col-gpios
+		= <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+	    , <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+		
+		
+		
+};

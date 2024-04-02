@@ -1,0 +1,9 @@
+# Test_001
+
+config SHIELD_rzr36v2_left
+	def_bool $(shields_list_contains,rzr36v2_left)
+	select SPI
+	
+config SHIELD_rzr36v2_right
+	def_bool $(shields_list_contains,rzr36v2_right)
+	select SPI
