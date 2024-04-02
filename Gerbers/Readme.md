@@ -1,8 +1,11 @@
 ## BOM
 
-2x PCB \ 
-2x Seeeduino Xiao BLE \
-2x Lipo Battery (I used 110mAh, not sure how much bigger you can get away with) \
+2x PCB 
+
+2x Seeeduino Xiao BLE 
+
+2x Lipo Battery (I used 110mAh, not sure how much bigger you can get away with the case) 
+
 2x PCM12 Switches \
 6x 0603 SMD resistors (I tried 5.1K and they didn't work, ended up shorting them but low value resistors (probably 100Ohm) would be easier) \
 36x SOD-123 Diodes \
